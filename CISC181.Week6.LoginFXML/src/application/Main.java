@@ -9,6 +9,29 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+	public static void main (String [] args)
+	{
+		launch(args);
+	}	
+	
+	
+	@Override
+	public void init() throws Exception {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+	
+	
+	
+	@Override
+	public void stop() throws Exception {
+		System.out.println("Program stopped");
+		super.stop();
+	}
+	
+	
+	
+
 	@Override
 	public void start(Stage primaryStage) {
 		Parent root;
